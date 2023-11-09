@@ -1,0 +1,183 @@
+@font-face {
+    font-family: android;
+    src: url(pacote/fontes/idroid.otf) format(opentype);
+}
+body {
+    background-color: #c6fff1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#um {
+    color: #1CECFF};
+    #dois {
+        color: #1C5DFF;
+    }
+    #tres {color: #1CFFC6;}
+    #quatro {color:#1DA3FF ;}
+    #cinco {color: #231CFF;}
+    header {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        background-image: linear-gradient(to bottom, #1CECFF ,#1C5DFF  );
+        color: white;
+       margin: 0px;
+       
+       padding: 10px 20px;
+       margin-bottom: 0px;
+       padding-bottom: 0px;
+    }
+    header > h1 {
+        margin-bottom: 0px;
+     margin-bottom: 27px;
+        text-align: center;
+    }
+    header > p {
+        margin-top: 0px;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    nav > a {
+        text-decoration: none;
+        color: white;
+        padding: 0px 15px 0px 0px;
+        font-weight: bold;
+transition: .25s;
+        text-align: left;
+        margin-top: 20px;}
+    nav > a:hover {
+        color: rgb(180, 178, 178);
+        background-color: #0c0c0c4f;
+    }
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    main > h1 {
+font-family: android, sans-serif;
+padding-top: 0px;
+margin-top: 0px;
+margin-left: 3%;
+
+color: #1C5DFF;
+    }
+
+  .aga2 {
+        margin-left: 3%;
+        margin-right: 3%;
+        color: #1C5DFF;
+font-family: android, sans-serif;
+background-image: linear-gradient(to right,#1cffc671, #1cffc600);
+    }
+    main {
+ box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.514);
+ border-radius: 0px 0px 6px 6px;
+        background-color: rgb(255, 255, 255)
+;
+margin: auto;
+max-width: 940px;
+min-width: 280;
+margin-top: 0px;
+padding-top: 0px;
+
+    }
+    /*@media (max-width: 609px) {
+        body {
+            background-color: white;
+        }
+        main {
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 100%;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            border-radius: 0px 0px 0px 0px;
+        }
+        
+    }*/
+    p {text-align: center;}
+    main > img {
+        margin-left: auto;
+  margin-right: auto;
+width: 60%;    
+}
+    #bugdroid {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+    }
+    #bugdroid2 {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+    #video {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+    }
+span {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #231CFF;}
+.bug {
+   width: 85%;
+
+}
+    img {
+        width: 100%;
+    }
+#artigo3 {
+    background-color:#b1f9ff69 ;
+text-align: left;
+margin: 1.5% 1.5%;
+
+}
+ul {
+    text-decoration: underline;
+    columns: 2;
+    list-style-type: '\2714';
+    width: 100%;
+}
+h3 {background-color:rgb(34, 92, 240) ;
+color: white;
+padding-bottom: 8px;}
+#lista {
+    display:flex;
+}
+
+#txtfinal {
+ text-align: left;
+ 
+    margin-left: 5px;
+}
+#artigo3 {
+ 
+    border-radius: 4px;
+}
+#espaco {
+    margin-left: 30px;
+}
+h3 {border-radius:4px 4px 0px  0px ;}
+#pad {padding-bottom: 12px;}
+
+#corlnk::after {content: "🔗";}
+#corlnk {color: rgb(0, 156, 143);}
+#cor {
+    color: rgb(0, 156, 143);
+    background-color: rgba(255, 255, 255, 0);
+}
+footer {
+    color: white;
+    background-color: #1C5DFF;
+    height: 20px;
+    margin-bottom: 0px;
+}
+
+#nome {
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding: 0px; 
+    background-color: rgba(255, 255, 255, 0);
+}
